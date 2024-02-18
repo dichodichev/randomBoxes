@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+
 }
 
 button{
@@ -9,3 +10,10 @@ button{
     height: 150px;
     background-color: white;
 }
+
+@media only screen and (max-width: 600px) {
+    button{
+        width: 70px;
+        height: 70px;
+    }
+    }
